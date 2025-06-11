@@ -12,5 +12,5 @@ jobs:
       - name: Run MyApp Backup
         uses: berkayy-atas/marketplace-test-workflow@v1.0.1
         with:
-          icredible_activation_code: ${{ secrets.ICREDIBLE_ACTIVATION_CODE }}
+          activation_code: ${{ secrets.ACTIVATION_CODE }}
           use_org_id: true
