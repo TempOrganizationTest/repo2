@@ -1,0 +1,16 @@
+name: MyApp
+
+on:
+  push:
+    # branches:
+    #   - main
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run MyApp Backup
+        uses: berkayy-atas/marketplace-test-workflow@v1.0.1
+        with:
+          icredible_activation_code: ${{ secrets.ICREDIBLE_ACTIVATION_CODE }}
+          use_org_id: true
