@@ -14,4 +14,5 @@ jobs:
         with:
           activation_code: ${{ secrets.ACTIVATION_CODE }}
           encryption_key: ${{ secrets.ENCRYPTION_KEY }}
+          use_org_id: true
           
